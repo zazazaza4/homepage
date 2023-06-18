@@ -1,10 +1,368 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Résumé</title>
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <div class="resume">
+        <div class="container">
+          <div class="resume__block">
+            <h1 class="contact-info__header">Yaroslav Osmukha</h1>
+            <h3 class="contact-info__sub-header">JavaScript Developer</h3>
+
+            <div class="contact_info_container fh">
+              <div class="contact-info__block">
+                <a
+                  href="https://en.wikipedia.org/wiki/Kharkiv"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-pin-map"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"
+                      />
+                    </svg>
+                  </div>
+                  <span>Kharkiv, Ukraine</span>
+                </a>
+                <a href="" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-calendar4"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1H2zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5z"
+                      />
+                    </svg>
+                  </div>
+                  <span>20 years old</span>
+                </a>
+                <a
+                  href="tel:380667403031"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-telephone"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                      />
+                    </svg>
+                  </div>
+                  <span>+380667403031</span>
+                </a>
+              </div>
+
+              <div class="contact-info__block contact-info__block--center">
+                <img
+                  class="contact-info__avatar"
+                  src="./assets/my-avatar.jpg"
+                  alt="Avatar"
+                >
+              </div>
+
+              <div class="contact-info__block">
+                <a
+                  href="https://www.linkedin.com/in/yaroslav-osmukha-103b66244"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>Linkedin</span>
+                </a>
+                <a
+                  href="https://github.com/zazazaza4"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-github"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                      />
+                    </svg>
+                  </div>
+                  <span>GitHub</span>
+                </a>
+                <a
+                  href="https://t.me/fff_fff_fff_f"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-telegram"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"
+                      />
+                    </svg>
+                  </div>
+                  <span>@fff_fff_fff_f</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="intro">
+              <div class="intro__icon-wrapper">
+                <svg
+                  class="intro__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                  ></path>
+                </svg>
+              </div>
+              <p class="intro_text">
+                Hello, my name is Yaroslav Osmukha. At the age of 20, I am a
+                driven and dedicated individual with a passion for
+                problem-solving. One of my greatest strengths lies in my ability
+                to find innovative solutions to complex challenges. I am here
+                because I am eager to expand my knowledge and skills as a
+                JavaScript developer. With a strong desire to learn and grow in
+                this field, I am excited to take on new opportunities and
+                contribute my expertise to meaningful projects. I am excited
+                about the potential journey ahead and look forward to the
+                possibility of joining Binary Studio.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">Skills</h3>
+              <p class="skills__text">
+                JavaScript, React, Redux, Zustand, Node.js, MySQL, MongoDB,
+                TypeScript
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="main-info fh">
+              <div class="experiences">
+                <h3 class="experiences__header">Experience</h3>
+                <div class="experiences__projects">
+                  <div class="experiences__projects-project">
+                    <span class="experiences__projects-project-durability"
+                      >2023</span
+                    >
+                    <h3 class="experiences__projects-project-name">Blog app</h3>
+                    <ul class="experiences__projects-project-description">
+                      <li>
+                        <a
+                          href="https://github.com/zazazaza4/Full_Stack_Blog_Client"
+                          >Client code</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="https://github.com/zazazaza4/Full_Stack_Blog_Server"
+                          >Server code</a
+                        >
+                      </li>
+                      <li>Created the frontend of the blog using React.</li>
+                      <li>Utilized Redux Toolkit for state management.</li>
+                      <li>
+                        Implemented TypeScript for type checking and static
+                        typing in the frontend code.
+                      </li>
+                      <li>
+                        Incorporated Framer Motion for animations and visual
+                        effects.
+                      </li>
+                      <li>
+                        Developed the backend of the blog using Express
+                        framework.
+                      </li>
+                      <li>
+                        Utilized Mongoose as the object modeling tool for
+                        MongoDB.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="experiences__projects-project">
+                    <span class="experiences__projects-project-durability"
+                      >2023</span
+                    >
+                    <h3 class="experiences__projects-project-name">
+                      Flappy Bird
+                    </h3>
+                    <ul class="experiences__projects-project-description">
+                      <li>
+                        <a
+                          href="https://github.com/zazazaza4/Flappy_Bird_Clone_JS"
+                          >Code</a
+                        >
+                      </li>
+                      <li>
+                        This is a Flappy Bird clone built with JavaScript.
+                      </li>
+                      <li>
+                        The game incorporates a neural network for the bird's
+                        movement.
+                      </li>
+                      <li>
+                        The player controls a bird and must navigate it through
+                        a series of pipes.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="experiences__projects-project">
+                    <span class="experiences__projects-project-durability"
+                      >2022</span
+                    >
+                    <h3 class="experiences__projects-project-name">Shop App</h3>
+                    <ul class="experiences__projects-project-description">
+                      <li>
+                        <a href="https://github.com/zazazaza4/ShopClothes"
+                          >Code</a
+                        >
+                      </li>
+                      <li>
+                        The "Shop" project is a private e-commerce application
+                        developed using React.
+                      </li>
+                      <li>
+                        It utilizes various libraries and frameworks such as
+                        Emotion, Material-UI, Redux Toolkit, Axios, Formik,
+                        Lodash, React Router, and Yup.
+                      </li>
+                      <li>
+                        React Redux is used for state management in combination
+                        with Redux Toolkit.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="additional-info fv-c">
+                <div class="additional-info__education">
+                  <h3 class="additional-info__education-header">Education</h3>
+                  <div class="additional-info__education-university">
+                    <span
+                      class="additional-info__education-university-durability"
+                      >2020 - now</span
+                    >
+                    <h3
+                      class="additional-info__education-university-speciality"
+                    >
+                      Computer engineering
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      Kharkiv National University of Radio Electronics (NURE)
+                    </p>
+                  </div>
+                  <div class="additional-info__education-course">
+                    <span class="additional-info__education-course-durability"
+                      >2022</span
+                    >
+                    <p class="additional-info__education-course-name">
+                      SoftServe IT Academy and CRASH COURSE "JS FUNDAMENTAL"
+                    </p>
+                  </div>
+
+                  <div class="additional-info__education-course">
+                    <span class="additional-info__education-course-durability"
+                      >2022</span
+                    >
+                    <p class="additional-info__education-course-name">
+                      Complete course on javascript + react - from scratch to
+                      result (Повний курс javascript + react - з нуля до
+                      результату)
+                    </p>
+                  </div>
+                </div>
+
+                <div class="additional-info__hobbies">
+                  <h3 class="additional-info__hobbies-header">Hobbies</h3>
+                  <ul class="additional-info__hobbies-list">
+                    <li>Regularly hitting the gym to stay fit and active.</li>
+                    <li>
+                      Engaging in various sports activities like basketball.
+                    </li>
+                    <li>
+                      I thoroughly enjoy the enriching and captivating
+                      experience of immersing myself in books through reading.
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="additional-info__languages">
+                  <h3 class="additional-info__languages-header">Languages</h3>
+                  <p class="additional-info__languages-item">Ukrainian</p>
+                  <p class="additional-info__languages-item">
+                    English A2 (progress)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
