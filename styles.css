@@ -28,6 +28,12 @@ body {
     justify-content: space-between;
 }
 
+.fv-s {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 .fv {
     display: flex;
     flex-direction: column;
@@ -179,49 +185,40 @@ body {
     margin-right: 50px;
 }
 
-.experiences__header {
-    color: var(--secondary-text-color);
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.experiences__company-header-durability {
-    color: var(--durability-text-color);
-    text-align: left;
-    margin-bottom: 10px;
-    font-size: 15px;
-}
-
-.experiences__company-header-name {
-    color: var(--primary-text-color);
-    text-decoration-color: var(--text-decoration-color);
-    text-decoration-line: underline;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.experiences__company-project {
+.experiences__projects-project {
     margin-left: 15px;
     margin-bottom: 25px;
 }
 
-.experiences__company-project-role {
+.experiences__projects-project-durability {
     color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
 }
 
-.experiences__company-project-name {
+.experiences__projects-project-name {
     color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 10px;
 }
 
-.experiences__company-project-responsibilities {
+.experiences__projects-project-description,
+.additional-info__hobbies-list {
     color: var(--secondary-text-color);
     padding-left: 20px;
 }
+
+.experiences__projects-project-description a {
+    color: var(--text-decoration-color);
+
+    transition: color 0.2s ease-in-out 0s;
+}
+
+.experiences__projects-project-description a:hover {
+    color: var(--durability-text-color);
+}
+
 
 .additional-info {
     flex: 1 1 40%;
@@ -237,7 +234,12 @@ body {
     margin-bottom: 20px;
 }
 
-.additional-info__education-university-durability {
+.additional-info__education-course {
+    margin-top: 10px;
+}
+
+.additional-info__education-university-durability,
+.additional-info__education-course-durability {
     color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 10px;
@@ -250,15 +252,19 @@ body {
     margin-bottom: 10px;
 }
 
-.additional-info__education-university-name {
+.additional-info__education-university-name,
+.additional-info__education-course-name {
     color: var(--secondary-text-color);
+
 }
 
-.additional-info__languages {
+.additional-info__languages,
+.additional-info__hobbies {
     margin-bottom: 20px;
 }
 
-.additional-info__languages-header {
+.additional-info__languages-header,
+.additional-info__hobbies-header {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
