@@ -197,6 +197,13 @@ body {
     margin-bottom: 10px;
 }
 
+.experiences__projects-project-role {
+   color: var(--secondary-text-color);
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
 .experiences__projects-project-description,
 .additional-info__hobbies-list {
     color: var(--secondary-text-color);
